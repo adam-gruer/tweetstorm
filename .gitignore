@@ -2,3 +2,4 @@
 .Rhistory
 .RData
 twitter_token
+.httr-oauth

@@ -1,0 +1,10 @@
+name: shiny
+title:
+username:
+account: dat-data-tho
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 227419
+bundleId: 1037294
+url: https://dat-data-tho.shinyapps.io/shiny/
+when: 1508537872.24216
