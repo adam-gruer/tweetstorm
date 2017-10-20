@@ -31,7 +31,7 @@ ui <- dashboardPage( skin = "black",
   dashboardHeader(title = "tweetstorm"),
   dashboardSidebar( disable = TRUE, 
     
-    textInput("query", label = "Query", value = "#ozunconf17"),
+    textInput("query", label = "Query", value = "#ozunconf17 OR ozunconf"),
     actionButton( "refresh", label = NULL, icon = icon( "refresh" ) ),
     
     sliderInput( "max_tweets", label = "Number of Tweets",
