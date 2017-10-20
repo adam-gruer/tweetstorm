@@ -1,5 +1,6 @@
-#' Tweets from the rOpenSci OzUnconf 2017
+
+#' Tweets from the useR 2017 conference
 #' 
-#' @name ozUnconf
+#' @name useR2017
 #' @docType data
-"ozUnconf"
+"useR2017"
