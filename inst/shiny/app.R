@@ -31,7 +31,7 @@ ui <- dashboardPage( skin = "black",
   dashboardHeader(title = "tweetstorm"),
   dashboardSidebar( disable = TRUE, 
     
-    textInput("query", label = "Query", value = "#useR2017"),
+    textInput("query", label = "Query", value = "#ozunconf17"),
     actionButton( "refresh", label = NULL, icon = icon( "refresh" ) ),
     
     sliderInput( "max_tweets", label = "Number of Tweets",
@@ -79,10 +79,10 @@ server <- function(input, output, session) {
 
   tweets <- reactive({
     input$refresh
-    # withProgress(min=0, max=1, value = .2, message = "updating tweets", {
-    #   search_tweets(isolate(input$query), n = isolate(input$max_tweets), include_rts = FALSE )
-    # })
-    useR2017
+     withProgress(min=0, max=1, value = .2, message = "updating tweets", {
+       search_tweets(isolate(input$query), n = isolate(input$max_tweets), include_rts = FALSE )
+     })
+    #useR2017
   })
   
   emojis <- reactive({
