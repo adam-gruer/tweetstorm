@@ -28,7 +28,7 @@ thinkr_branding <- function( repo = "tweetstorm" ){
 }
 
 ui <- dashboardPage( skin = "black", 
-  dashboardHeader(title = "tweetstorm"),
+  dashboardHeader(title = "rOpenSci OzUnconf tweetstorm"),
   dashboardSidebar( disable = TRUE, 
     
     textInput("query", label = "Query", value = "#ozunconf17 OR ozunconf"),
